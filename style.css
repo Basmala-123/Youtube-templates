@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-color: rgba(37, 99, 235, 1);
+  --black-color: rgba(15, 23, 42, 1);
+  --blue-gray: rgba(71, 85, 105, 1);
+  --white: rgba(255, 255, 255, 1);
+  --gray: rgba(241, 245, 249, 1);
+  --purple-gradient:linear-gradient(
+        to right, 
+        rgba(49, 46, 129, 1) 0%, 
+        rgba(30, 64, 175, 1) 33%, 
+        rgba(30, 58, 138, 1) 66%, 
+        rgba(112, 26, 117, 1) 100%
+    );
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+h1,
+h2,
+p {
+  color: var(--black-color);
+}
+
+.primary-btn {
+  color: var(--main-color);
+}
+.secondry-btn {
+  background-color: var(--main-color);
+  border: 1px solid transparent;
+  /* width: 150px; */
+  color: var(--white);
+  transition: all 0.5s ease;
+}
+.secondry-btn:hover {
+  background-color: var(--white);
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
+}
+nav .nav-item {
+  margin: 0 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+nav .btn {
+  font-size: 15px;
+  padding: 5px 15px;
+}
+main p {
+  font-size: 17px;
+}
+main .sponser {
+  background-color: var(--gray);
+  padding: 5px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+.img-stack{
+    border-radius: 20px;
+    object-fit: cover;
+    height: 350px;
+    width: 100%;
+}
+.stagger-low{
+    margin-top: 40px;
+}
+.stagger-high{
+    margin-top: 0px;
+}
+.stagger-mid{
+    margin-top: 20px;
+}
+.purple-card{
+    background: linear-gradient(to right,rgba(88, 28, 135, 0.75)),url(images/ballom.jpg);
+    border-radius: 30px;
+    padding: 80px 60px;
+    margin-bottom:80px ;
+}
+.purple-card h2,
+.purple-card p{
+    color: var(--white);
+}
+.purple-card a{
+    color: var(--white);
+    text-decoration: none;
+}
+.nav-pills{
+    background-color: var(--gray);
+}
+.nav-pills .nav-item{
+    flex-grow: 1;
+    text-align: center;
+    border: 2px solid var(--gray);
+}
+.nav-pills .nav-item a{
+    color: var(--black-color);
+}
+.nav-pills .nav-item:not(:has(a.active)){
+    background-color: var(--white);
+} 
+.nav-pills .nav-item .active{
+    background-color: var(--gray);
+    color: var(--black-color);
+}
+.cta-box{
+    background: var(--purple-gradient);
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.cta-box p , .cta-box h2{  
+    color: var(--white);
+}
+.footer-links a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: var(--blue-gray);
+}
