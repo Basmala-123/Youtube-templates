@@ -15,7 +15,12 @@ If you want to learn how these templates were built from scratch, check out my t
 ## 🛠️ How to Access the Code (Branches)
 To keep everything organized, each project is hosted in its own **Git Branch**. You can switch between them to download or view the specific template you're interested in:
 
-
+| Template Name | Branch Name | Description |
+| :--- | :--- | :--- |
+| **Project 01** | `landing-page` | ![Uploading image.png…]()
+ |
+| **Project 02** | `template-02` | [Add Project Title Here] |
+---
 
 ### 🚀 How to switch branches:
 1. Click the **Branch: main** button near the top left.
