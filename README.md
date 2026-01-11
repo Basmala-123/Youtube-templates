@@ -20,7 +20,7 @@ To keep everything organized, each project is hosted in its own **Git Branch**. 
 | **Project 01** | `landing-page` | <img width="1366" height="2859" alt="image" src="https://github.com/user-attachments/assets/2e37b06d-3590-4ab5-bb14-a9748cafa904" />
 
  |
-| **Project 02** | `template-02` | [Add Project Title Here] |
+
 ---
 
 ### 🚀 How to switch branches:
